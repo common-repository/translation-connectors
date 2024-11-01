@@ -1,0 +1,17 @@
+parameters:
+  plugin.table.prefix: "smartcat_connector_"
+  plugin.options:
+    #API credentials
+    - "smartcat_api_login"
+    - "smartcat_api_password"
+    - "smartcat_api_server"
+    #Additional params
+    - "smartcat_debug_mode"
+    - "smartcat_events_enabled"
+    - "smartcat_regform_showed"
+    - "last_cron_send"
+    - "last_cron_check"
+    #Сallback Authorize code
+    - "cron_authorisation_token"
+    - "smartcat_account_name"
+    - "use_external_cron"
